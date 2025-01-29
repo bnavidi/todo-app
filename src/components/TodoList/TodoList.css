@@ -1,0 +1,37 @@
+.TodoList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 15px;
+    border-radius: 8px;
+    background: var(--list-bg);
+    box-shadow: var(--box-shadow);
+}
+
+.TodoList::-webkit-scrollbar {
+    width: 8px;
+}
+
+.TodoList::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.TodoList::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.TodoList::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+@media (max-width: 480px) {
+    .TodoList {
+        padding: 5px;
+        max-height: 300px;
+    }
+}
