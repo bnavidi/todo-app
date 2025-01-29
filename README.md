@@ -26,8 +26,8 @@ A modern todo application built with React that includes dark mode support and l
 
 ## Screenshots
 
-![Light Mode](.\public\todo-app-light.png)
+![Light Mode](public/todo-app-light.png)
 
-![Dark Mode](.\public\todo-app-dark.png)
+![Dark Mode](public\todo-app-dark.png)
 
-![Edit Mode](.\public\todo-app-edit.png)
+![Edit Mode](public\todo-app-edit.png)
